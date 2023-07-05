@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Button from "remoteApp/Button";
+// import Button from "remoteApp/Button";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +9,7 @@ function App() {
     <>
      <h1>Host App</h1>
      <button onClick={() => setCount((count) => count + 1)}>Count {count}</button>
-     <Button text="Button from Remote"/>
+     {/* <Button text="Button from Remote"/> */}
     </>
   )
 }
